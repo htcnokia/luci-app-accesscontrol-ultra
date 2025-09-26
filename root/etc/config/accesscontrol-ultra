@@ -1,0 +1,15 @@
+# Access Control Ultra default config
+
+config rule
+    option enable '0'
+    option mac ''
+    option ip ''
+    option hostname ''
+    option option60 ''
+    option option61 ''
+    option target 'drop'
+    option upload '1024'
+    option download '4096'
+    option weekdays '1,2,3,4,5,6,7'
+    option start '00:00'
+    option stop '23:59'

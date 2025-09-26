@@ -1,0 +1,17 @@
+#!/bin/sh /etc/rc.common
+# Init script for accesscontrol-ultra
+
+START=96
+USE_PROCD=0
+
+start() {
+    logger -t accesscontrol-ultra "Starting..."
+    /usr/bin/acu_apply_rules.sh
+}
+
+stop() {
+    logger -t accesscontrol-ultra "Stopping..."
+    iptables -F acu_chain 2>/dev/null
+    ipset destroy acu_ipset 2>/dev/null
+    tc qdisc del dev $(uci get network.lan.ifname 2>/dev/null || echo br-lan) root 2>/dev/null
+}

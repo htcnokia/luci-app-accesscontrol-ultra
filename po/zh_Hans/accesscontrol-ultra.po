@@ -1,0 +1,59 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Access Control Ultra"
+msgstr "超级上网控制"
+
+msgid "Rules"
+msgstr "规则"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "MAC Address"
+msgstr "MAC 地址"
+
+msgid "IP Address"
+msgstr "IP 地址"
+
+msgid "Hostname Match (Regex)"
+msgstr "主机名匹配（正则）"
+
+msgid "Option60 (Vendor Class)"
+msgstr "Option60（厂商类）"
+
+msgid "Option61 (Client ID)"
+msgstr "Option61（客户端ID）"
+
+msgid "Action"
+msgstr "动作"
+
+msgid "Block Internet"
+msgstr "禁止上网"
+
+msgid "Limit Speed"
+msgstr "限速"
+
+msgid "Upload Limit (kbps)"
+msgstr "上传限速 (kbps)"
+
+msgid "Download Limit (kbps)"
+msgstr "下载限速 (kbps)"
+
+msgid "Weekdays (1-7, comma)"
+msgstr "星期几（1-7，逗号分隔）"
+
+msgid "Start Time (HH:MM)"
+msgstr "开始时间 (HH:MM)"
+
+msgid "Stop Time (HH:MM)"
+msgstr "结束时间 (HH:MM)"
+
+msgid "Advanced DHCP + Time + Speed based access control."
+msgstr "基于 DHCP + 时间 + 速率的高级上网控制"
+
+msgid "⚠ Turbo ACC/NSS:"
+msgstr "⚠ Turbo ACC/NSS："
+
+msgid "Detected Turbo ACC (FastPath/NSS). Some access control or speed limit features may not work correctly."
+msgstr "检测到 Turbo ACC (FastPath/NSS)。部分访问控制或限速功能可能无法正常工作。"
